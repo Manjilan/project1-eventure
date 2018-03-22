@@ -8,7 +8,7 @@ class EventsController < ApplicationController
     end
 
     def create
-      # @event = Event.create(event_params)
+      @event = Event.create(event_params)
       # redirect_to events_path
 
       # @user = User.find(params[:user_id])
